@@ -1,0 +1,25 @@
+.expense-chart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  box-sizing: border-box;
+  margin-inline: auto;
+  margin-top: 1.5rem;
+  padding: 0 2rem;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+}
+
+.expense-chart-container h1 {
+  color: hsl(25, 47%, 15%);
+}
+
+.bar-chart {
+  color: hsl(28, 10%, 53%);
+}
+
+.chart-bar {
+  border-radius: 50px;
+}
