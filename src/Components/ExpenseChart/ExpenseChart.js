@@ -1,6 +1,6 @@
 import React from 'react';
 import './ExpenseChart.css';
-import { BarChart, Bar, XAxis, Tooltip } from 'recharts';
+import { BarChart, Bar, XAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 const data = [
   {
@@ -37,17 +37,15 @@ const ExpenseChart = () => {
   return (
     <div className="expense-chart-container">
       <h1>Spending - Last 7 days</h1>
-      <div className="bar-chart">
-        <BarChart width={430} height={300} data={data}>
-          <XAxis dataKey="day" />
-          <Tooltip />
+      <div style={{ width: '100%', height: 200 }}>
+        <ResponsiveContainer>
+          <BarChart width={430} height={200} data={data}>
+            <XAxis dataKey="day" />
+            <Tooltip />
 
-          <Bar
-            dataKey="amount"
-            fill="hsl(10, 79%, 65%)"
-            className="chart-bar"
-          />
-        </BarChart>
+            <Bar dataKey="amount" fill="hsl(10, 79%, 65%)" />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );

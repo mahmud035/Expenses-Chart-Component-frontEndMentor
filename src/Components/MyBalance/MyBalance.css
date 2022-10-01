@@ -19,3 +19,10 @@
   margin-top: 10px;
   font-weight: 600;
 }
+
+/** Media Queries */
+@media (max-width: 600px) {
+  .my-balance-container {
+    width: 340px;
+  }
+}

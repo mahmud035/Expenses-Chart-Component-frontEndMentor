@@ -5,7 +5,7 @@ import MyBalance from './Components/MyBalance/MyBalance';
 
 function App() {
   return (
-    <div>
+    <div className="card-container">
       <MyBalance></MyBalance>
       <ExpenseChart></ExpenseChart>
       <MonthExpenses></MonthExpenses>

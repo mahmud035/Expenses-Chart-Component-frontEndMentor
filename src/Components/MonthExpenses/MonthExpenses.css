@@ -40,5 +40,16 @@
 
 .expense-container .previous-month p {
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
+}
+
+/** Media Queries */
+@media (max-width: 600px) {
+  .month-expenses-container {
+    width: 340px;
+  }
+
+  .expense-container .this-month h1 {
+    font-size: 2rem;
+  }
 }
