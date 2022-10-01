@@ -1,0 +1,21 @@
+.my-balance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  box-sizing: border-box;
+  margin-inline: auto;
+  padding: 0 1.5rem;
+  border-radius: 20px;
+  color: #fff;
+  background-color: hsl(10, 79%, 65%);
+}
+
+.my-balance-container p {
+  margin-bottom: 0;
+}
+
+.my-balance-container h1 {
+  margin-top: 10px;
+  font-weight: 600;
+}

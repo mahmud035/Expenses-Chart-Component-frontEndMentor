@@ -1,9 +1,10 @@
 import './App.css';
+import MyBalance from './Components/MyBalance/MyBalance';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <MyBalance></MyBalance>
     </div>
   );
 }
